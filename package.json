@@ -1,0 +1,29 @@
+{
+  "name": "rn-extractor",
+  "version": "1.0.0",
+  "description": "Extract archive in ReactNative",
+  "homepage": "https://github.com/godicheol/rn-extractor.git",
+  "main": "index.js",
+  "scripts": {
+    "unlink": "rimraf .git",
+    "build": "npm pack"
+  },
+  "author": "godicheol <godicheol@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "javascript",
+    "react-native"
+  ],
+  "devDependencies": {
+    "mkdirp": "^2.1.5",
+    "rimraf": "^4.4.0",
+    "react": "*",
+    "react-native": "*"
+  },
+  "bundledDependencies": [],
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
