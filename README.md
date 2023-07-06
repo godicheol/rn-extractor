@@ -2,13 +2,11 @@
 
 ```console
 git clone https://github.com/godicheol/rn-archive-extractor
-
 npm pack
-
-npm install rn-archive-extractor-1.0.0.tgz
 ```
 
 ```console
+npm install rn-archive-extractor-1.0.0.tgz
 cd ios && pod install
 ```
 
