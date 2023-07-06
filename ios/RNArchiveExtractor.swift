@@ -1,6 +1,6 @@
 //
-//  RNExtractor.swift
-//  RNExtractor
+//  RNArchiveExtractor.swift
+//  RNArchiveExtractor
 //
 //  Created by Icheol on 2023/04/23.
 //  Copyright © 2023 Facebook. All rights reserved.
@@ -259,8 +259,8 @@ class PdfExtractor {
     }
 }
 
-@objc(RNExtractor)
-class RNExtractor: NSObject {
+@objc(RNArchiveExtractor)
+class RNArchiveExtractor: NSObject {
 
     @objc
     static func requiresMainQueueSetup() -> Bool {
@@ -269,7 +269,7 @@ class RNExtractor: NSObject {
 
     @objc
     func getName() -> String {
-        return "RNExtractor"
+        return "RNArchiveExtractor"
     }
 
     @objc

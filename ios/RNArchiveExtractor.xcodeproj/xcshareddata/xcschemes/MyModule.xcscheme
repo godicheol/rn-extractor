@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "58B511DA1A9E6C8500147676"
-               BuildableName = "libExtractor.a"
-               BlueprintName = "RNExtractor"
-               ReferencedContainer = "container:RNExtractor.xcodeproj">
+               BuildableName = "libRNArchiveExtractor.a"
+               BlueprintName = "RNArchiveExtractor"
+               ReferencedContainer = "container:RNArchiveExtractor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -51,9 +51,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "58B511DA1A9E6C8500147676"
-            BuildableName = "libExtractor.a"
-            BlueprintName = "RNExtractor"
-            ReferencedContainer = "container:RNExtractor.xcodeproj">
+            BuildableName = "libRNArchiveExtractor.a"
+            BlueprintName = "RNArchiveExtractor"
+            ReferencedContainer = "container:RNArchiveExtractor.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

@@ -1,6 +1,6 @@
 //
-//  RNExtractor.m
-//  RNExtractor
+//  RNArchiveExtractor.m
+//  RNArchiveExtractor
 //
 //  Created by Icheol on 2023/04/23.
 //  Copyright © 2023 Facebook. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <React/RCTBridgeModule.h>
 
-@interface RCT_EXTERN_MODULE(RNExtractor, NSObject)
+@interface RCT_EXTERN_MODULE(RNArchiveExtractor, NSObject)
 
 RCT_EXTERN__BLOCKING_SYNCHRONOUS_METHOD(getName)
 

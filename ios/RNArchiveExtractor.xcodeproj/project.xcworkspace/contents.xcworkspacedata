@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/godicheol/git/rn-extractor/ios/RNExtractor.xcodeproj">
+      location = "self:/Users/godicheol/git/rn-extractor/ios/RNArchiveExtractor.xcodeproj">
    </FileRef>
 </Workspace>

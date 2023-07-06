@@ -1,13 +1,21 @@
 ## Installation
 
 ```console
+git clone https://github.com/godicheol/rn-archive-extractor
+
+npm pack
+
+npm install rn-archive-extractor-1.0.0.tgz
+```
+
+```console
 cd ios && pod install
 ```
 
 ```swift
 // /react-native/ios/Podfile
 ...
-target <TARGET_NAME> do {
+target '<ReactNativeApplication>' do {
     ...
     pod "UnrarKit", :modular_headers => true // add this line
     ...
@@ -15,30 +23,30 @@ target <TARGET_NAME> do {
 ```
 
 ```js
-import RNE from 'rn-extractor';
+import RNAE from 'rn-archive-extractor';
 ```
 
 ## Usage
 
 ```js
 
-const srcPath = "archive path";
-const destPath = "directory path";
+const srcPath = "./foo.zip"; // archive path
+const destPath = "./dest"; // directory path
 
 // zip
-await RNE.isProtectedZip(srcPath); // return boolean
-await RNE.extractZip(srcPath, destPath); // return undefined
-await RNE.extractZipWithPassword(srcPath, destPath, password); // return undefined
+await RNAE.isProtectedZip(srcPath); // return boolean
+await RNAE.extractZip(srcPath, destPath); // return undefined
+await RNAE.extractZipWithPassword(srcPath, destPath, password); // return undefined
 // rar
-await RNE.isProtectedRar(srcPath); // return boolean
-await RNE.extractRar(srcPath, destPath); // return undefined
-await RNE.extractRarWithPassword(srcPath, destPath, password); // return undefined
+await RNAE.isProtectedRar(srcPath); // return boolean
+await RNAE.extractRar(srcPath, destPath); // return undefined
+await RNAE.extractRarWithPassword(srcPath, destPath, password); // return undefined
 // 7z
-await RNE.extractSevenZip(srcPath, destPath); // return undefined
-await RNE.extractSevenZipWithPassword(srcPath, destPath, password); // return undefined
+await RNAE.extractSevenZip(srcPath, destPath); // return undefined
+await RNAE.extractSevenZipWithPassword(srcPath, destPath, password); // return undefined
 // pdf
-await RNE.isProtectedPdf(srcPath); // return boolean
-await RNE.extractPdf(srcPath, destPath); // return undefined
+await RNAE.isProtectedPdf(srcPath); // return boolean
+await RNAE.extractPdf(srcPath, destPath); // return undefined
 ```
 
 ## Acknowledgements

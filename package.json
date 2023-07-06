@@ -1,8 +1,8 @@
 {
-  "name": "rn-extractor",
+  "name": "rn-archive-extractor",
   "version": "1.0.0",
   "description": "Extract archive in ReactNative",
-  "homepage": "https://github.com/godicheol/rn-extractor.git",
+  "homepage": "https://github.com/godicheol/rn-archive-extractor.git",
   "main": "index.js",
   "scripts": {
     "unlink": "rimraf .git",

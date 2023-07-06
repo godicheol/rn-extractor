@@ -1,4 +1,4 @@
-package com.godicheol.rnextractor;
+package com.godicheol.rnarchiveextractor;
 
 
 import com.facebook.react.bridge.ReactApplicationContext;
@@ -25,18 +25,18 @@ import android.graphics.pdf.PdfRenderer;
 import android.graphics.pdf.PdfRenderer.Page;
 import android.os.ParcelFileDescriptor;
 
-public class RNExtractorModule extends ReactContextBaseJavaModule {
+public class RNArchiveExtractorModule extends ReactContextBaseJavaModule {
 
     private final ReactApplicationContext reactContext;
 
-    public RNExtractorModule(ReactApplicationContext reactContext) {
+    public RNArchiveExtractorModule(ReactApplicationContext reactContext) {
         super(reactContext);
         this.reactContext = reactContext;
     }
 
     @Override
     public String getName() {
-        return "RNExtractor";
+        return "RNArchiveExtractor";
     }
 
     @ReactMethod

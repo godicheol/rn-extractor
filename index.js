@@ -1,3 +1,3 @@
 import { NativeModules } from 'react-native';
-const { RNExtractor } = NativeModules;
-export default RNExtractor;
+const { RNArchiveExtractor } = NativeModules;
+export default RNArchiveExtractor;

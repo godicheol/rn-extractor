@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B371C8129F0388000D8C6CF /* RNExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B371C8029F0388000D8C6CF /* RNExtractor.m */; };
-		9BCDECBC29F4F3BF00312377 /* RNExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDECBB29F4F3BF00312377 /* RNExtractor.swift */; };
+		9B371C8129F0388000D8C6CF /* RNArchiveExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B371C8029F0388000D8C6CF /* RNArchiveExtractor.m */; };
+		9BCDECBC29F4F3BF00312377 /* RNArchiveExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDECBB29F4F3BF00312377 /* RNArchiveExtractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		134814201AA4EA6300B7C361 /* libRNExtractor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNExtractor.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B371C8029F0388000D8C6CF /* RNExtractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNExtractor.m; sourceTree = "<group>"; };
-		9BCDECBA29F4F3BF00312377 /* RNExtractor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNExtractor-Bridging-Header.h"; sourceTree = "<group>"; };
-		9BCDECBB29F4F3BF00312377 /* RNExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNExtractor.swift; sourceTree = "<group>"; };
+		134814201AA4EA6300B7C361 /* libRNArchiveExtractor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNArchiveExtractor.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B371C8029F0388000D8C6CF /* RNArchiveExtractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNArchiveExtractor.m; sourceTree = "<group>"; };
+		9BCDECBA29F4F3BF00312377 /* RNArchiveExtractor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNArchiveExtractor-Bridging-Header.h"; sourceTree = "<group>"; };
+		9BCDECBB29F4F3BF00312377 /* RNArchiveExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNArchiveExtractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				134814201AA4EA6300B7C361 /* libRNExtractor.a */,
+				134814201AA4EA6300B7C361 /* libRNArchiveExtractor.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,19 +52,19 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				9BCDECBB29F4F3BF00312377 /* RNExtractor.swift */,
+				9BCDECBB29F4F3BF00312377 /* RNArchiveExtractor.swift */,
 				134814211AA4EA7D00B7C361 /* Products */,
-				9B371C8029F0388000D8C6CF /* RNExtractor.m */,
-				9BCDECBA29F4F3BF00312377 /* RNExtractor-Bridging-Header.h */,
+				9B371C8029F0388000D8C6CF /* RNArchiveExtractor.m */,
+				9BCDECBA29F4F3BF00312377 /* RNArchiveExtractor-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58B511DA1A9E6C8500147676 /* RNExtractor */ = {
+		58B511DA1A9E6C8500147676 /* RNArchiveExtractor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNExtractor" */;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNArchiveExtractor" */;
 			buildPhases = (
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
@@ -74,9 +74,9 @@
 			);
 			dependencies = (
 			);
-			name = RNExtractor;
+			name = RNArchiveExtractor;
 			productName = RCTDataManager;
-			productReference = 134814201AA4EA6300B7C361 /* libRNExtractor.a */;
+			productReference = 134814201AA4EA6300B7C361 /* libRNArchiveExtractor.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -94,7 +94,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNExtractor" */;
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNArchiveExtractor" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,7 +107,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58B511DA1A9E6C8500147676 /* RNExtractor */,
+				58B511DA1A9E6C8500147676 /* RNArchiveExtractor */,
 			);
 		};
 /* End PBXProject section */
@@ -117,8 +117,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BCDECBC29F4F3BF00312377 /* RNExtractor.swift in Sources */,
-				9B371C8129F0388000D8C6CF /* RNExtractor.m in Sources */,
+				9BCDECBC29F4F3BF00312377 /* RNArchiveExtractor.swift in Sources */,
+				9B371C8129F0388000D8C6CF /* RNArchiveExtractor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +253,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RNExtractor;
+				PRODUCT_NAME = RNArchiveExtractor;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "RNExtractor-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -274,7 +274,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RNExtractor;
+				PRODUCT_NAME = RNArchiveExtractor;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "RNExtractor-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -284,7 +284,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNExtractor" */ = {
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNArchiveExtractor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511ED1A9E6C8500147676 /* Debug */,
@@ -293,7 +293,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNExtractor" */ = {
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNArchiveExtractor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511F01A9E6C8500147676 /* Debug */,
